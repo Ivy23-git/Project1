@@ -1,0 +1,101 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>The Dog-Vine</title>
+</head>
+
+<body>
+    <header class="header">
+        
+            <h3 class="Title">The Dog-Vine</h3>
+            
+        
+        <nav class="navbar">
+            <ul>
+                <a href="#Home">Home</a>
+                <a href="#About Us">About Us</a>
+                <a href="#Products">Products</a>
+                <a href="#Contact">Contact</a>
+            </ul>
+        </nav>
+        <div class="icons">
+            <div id="login-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    <form action=""class="login-form">
+        <h3>login form</h3>
+        <input type="email"placeholder="Enter your email" class="box">
+        <input type="password"placeholder="Enter your password" class="box">
+        <div class="remember">
+          <input type="checkbox" name=""id="remember-me">
+          <label for="remember-me">remember me</label>
+        </div>
+        <a href="#" class="btn">login</a>
+    </form>
+
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Enjoy the wonderful <br>
+            adventure of the <br> different dogs</h3>
+            <a href="#" class="btn">Welcome to the Dog-Vine</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h2 class="deco-title">About us</h2>
+        <div class="box-container">
+            <div class="image">
+                <img src="ABTS.png" alt="">
+            </div>
+            <div class="content">
+                <h3 class="title">We Educate.</h3>
+                <p>Dogs are a domesticated mammal and are one of the most popular pets around the world.
+                    They come in a wide variety of breeds, sizes, and colors, and have been bred for various purposes such as hunting, herding, and companionship.
+                    Dogs are known for their loyalty, intelligence, and ability to form strong bonds with their owners.
+                    They are also social animals and often enjoy being around other dogs and people. 
+                    They have a keen sense of smell and hearing, which makes them great for tasks such as tracking, search and rescue, and detection work.</p>
+
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-gradutaion-cap"></i>
+                    <h3>we educate</h3>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>we play</h3>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-book-opn"></i>
+                    <h3>getting to know the Dogs </h3>
+                </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+<script>
+    function login() {
+    const email = document.querySelector('.box[type="email"]').value;
+    const password = document.querySelector('.box[type="password"]').value;
+    const rememberMe = document.querySelector('#remember-me').checked;
+  
+    console.log(`Email: ${email}, Password: ${password}, Remember Me: ${rememberMe}`);
+  }
+  
+  const loginButton = document.querySelector('.btn');
+  loginButton.addEventListener('click', login);
+</script>
+
+<script src="index.js"></script>
+</body>
+
+<script src="index.js"></script>
+</html>
