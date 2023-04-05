@@ -181,14 +181,16 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+   
+    
 }
-
-.card {
+.card-container {
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     margin: 10px;
-    width: 300px;
+    width: 300px; 
+   
 }
 
 .card img {
@@ -204,3 +206,30 @@ section{
 .card .info {
     padding: 10px;
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .page-link {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: black;
+    color: white;
+  }
+
+    
+  
+  
+  
+  
+  
+  
