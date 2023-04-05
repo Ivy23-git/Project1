@@ -1,4 +1,4 @@
-const perPage = 3;
+const perPage = 4;
 let currentPage = 0;
 let totalBreeds = 148;
 
@@ -43,6 +43,29 @@ function loadBreeds() {
         const description = document.createElement('p');
         description.textContent = breed.temperament;
         card.appendChild(description);
+
+        const breedGroup = document.createElement('p');
+        breedGroup.textContent = `Breed group: ${breed.breed_group}`;
+        card.appendChild(breedGroup);
+
+        const lifeSpan = document.createElement('p');
+        lifeSpan.textContent = `Life span: ${breed.life_span}`;
+        card.appendChild(lifeSpan);
+
+        const likeButton = document.createElement('button');
+        likeButton.textContent = 'Like';
+
+        const likeCount = document.createElement('span');
+        likeCount.textContent = '0';
+
+        likeButton.addEventListener('click', () => {
+          let currentCount = parseInt(likeCount.textContent);
+          likeCount.textContent = currentCount + 1;
+        });
+
+        card.appendChild(likeButton);
+        card.appendChild(likeCount);
+
 
         cardContainer.appendChild(card);
       });
