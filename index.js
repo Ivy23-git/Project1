@@ -1,46 +1,30 @@
-function login() {
-    const email = document.querySelector('.box[type="email"]').value;
-    const password = document.querySelector('.box[type="password"]').value;
-    const rememberMe = document.querySelector('#remember-me').checked;
-  
-    console.log(`Email: ${email}, Password: ${password}, Remember Me: ${rememberMe}`);
-  }
-  
-  const loginButton = document.querySelector('.btn');
-  loginButton.addEventListener('click', login);
-  
-  // Select an existing element or create a new one to append the login button, email, and password to
-  const textContent = document.querySelector('#some-element');
-  
-  // Append the login button, email, and password to the selected element
-  textContent.appendChild(loginButton);
-  textContent.appendChild(document.createElement('br')); // Add a line break between elements
-  textContent.appendChild(document.createTextNode('Email: '));
-  textContent.appendChild(document.createTextNode(email));
-  textContent.appendChild(document.createElement('br')); // Add a line break between elements
-  textContent.appendChild(document.createTextNode('Password: '));
-  textContent.appendChild(document.createTextNode(password));
-  
+fetch('https://api.thedogapi.com/v1/breeds?limit=100&page=0')
+  .then(response => response.json())
+  .then(data => {
+    const cardContainer = document.getElementById('card-container');
+    data.forEach(breed => {
+      const card = document.createElement('div');
+      card.classList.add('card');
+      const image = document.createElement('img');
+      image.src = breed.image.url;
+      image.alt = breed.name;
+      image.width = '32px'; // set width to 32px
+      image.height = '32px'; // set height to 32px
+      card.appendChild(image);
 
+      const name = document.createElement('h2');
+      name.textContent = breed.name;
+      card.appendChild(name);
 
+      const description = document.createElement('p');
+      description.textContent = breed.temperament;
+      card.appendChild(description);
 
+      const imageUrl = document.createElement('img');
+      imageUrl.src = breed.image.url;
+      card.appendChild(imageUrl);
 
+      cardContainer.appendChild(card);
+    });
+  });
 
-
-
-
-
-
-
-
-
-
-
-
-
- 0
-
-
-
-
-    
