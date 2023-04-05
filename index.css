@@ -61,10 +61,14 @@ section{
     justify-content: space-between;
     padding: 2rem 9%;
 }
+.header .h3{
+    font-size: 4.5rem;
+}
 .header .navbar a{
     font-size:1.7rem;
     color: var(--black);
     margin: 0 1 rem;
+    justify-content: space-between;
 }
 .header .navbar a:hover{
     color: var(--main);
@@ -175,6 +179,7 @@ section{
     padding: 1rem 0;
     line-height: 2;
 }
+
 button {
     background-color: #4CAF50;
     border: none;
@@ -274,6 +279,7 @@ button {
     color: #999;
     margin-left: 10px;
   }
+  
  
 
     
