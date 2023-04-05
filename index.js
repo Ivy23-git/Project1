@@ -16,14 +16,15 @@ fetch('https://api.thedogapi.com/v1/breeds?limit=100&page=0')
       name.textContent = breed.name;
       card.appendChild(name);
 
-      const description = document.createElement('p');
-      description.textContent = breed.temperament;
-      card.appendChild(description);
-
       const imageUrl = document.createElement('img');
       imageUrl.src = breed.image.url;
       card.appendChild(imageUrl);
 
+      const description = document.createElement('p');
+      description.textContent = breed.temperament;
+      card.appendChild(description);
+
+      
       cardContainer.appendChild(card);
     });
   });
