@@ -52,6 +52,17 @@ function loadBreeds() {
         lifeSpan.textContent = `Life span: ${breed.life_span}`;
         card.appendChild(lifeSpan);
 
+        const commentForm = document.createElement('form');
+        const commentInput = document.createElement('input');
+        commentInput.type = 'text';
+        commentInput.placeholder = 'Add a comment';
+        const submitButton = document.createElement('button');
+        submitButton.type = 'submit';
+        submitButton.textContent = 'Submit';
+        commentForm.appendChild(commentInput);
+        commentForm.appendChild(submitButton);
+        card.appendChild(commentForm);
+
         const likeButton = document.createElement('button');
         likeButton.textContent = 'Like';
 
