@@ -214,6 +214,7 @@ button {
 #card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .card {
@@ -279,7 +280,7 @@ button {
     color: #999;
     margin-left: 10px;
   }
-  
+
  
 
     
