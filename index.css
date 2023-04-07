@@ -280,6 +280,55 @@ button {
     color: #999;
     margin-left: 10px;
   }
+  .contact{
+    background: var(--bg);
+  }
+  .contact .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+  .contact .box-container .box h3{
+    font-size: 2.5rem;
+    color: var(--black);
+    padding: 1rem 0;
+  }
+  .contact .box-container .box .links{
+    display: block;
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: 1rem 0;
+  }
+  .contact .box-container .box .links i{
+    color: var(--main);
+    padding-right: .5rem;
+  }
+  .contact .box-container .box .links:hover i{
+    padding-right: 2rem;
+  }
+  .contact .box-container .box .share a{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    color: var(--black);
+    background: var(--white);
+    font-size: 1.8rem;
+    border-radius: 5rem;
+    margin-right: .9rem;
+    text-align: center;
+    margin-top: 1.4rem;
+  }
+  .contact .box-container .box .share a:hover{
+    background: var(--main);
+  }
+  .contact .credit{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2.5rem;
+    color: var(--black);
+    border-top: .2rem solid rgba(0, 0, 0, 0.2);
+  }
 
  
 
