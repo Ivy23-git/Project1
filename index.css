@@ -179,7 +179,12 @@ section{
     padding: 1rem 0;
     line-height: 2;
 }
-
+#Varieties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 button {
     background-color: #4CAF50;
     border: none;
@@ -306,21 +311,7 @@ button {
   .contact .box-container .box .links:hover i{
     padding-right: 2rem;
   }
-  .contact .box-container .box .share a{
-    height: 3rem;
-    width: 3rem;
-    line-height: 3rem;
-    color: var(--black);
-    background: var(--white);
-    font-size: 1.8rem;
-    border-radius: 5rem;
-    margin-right: .9rem;
-    text-align: center;
-    margin-top: 1.4rem;
-  }
-  .contact .box-container .box .share a:hover{
-    background: var(--main);
-  }
+
   .contact .credit{
     font-size: 2rem;
     text-align: center;
