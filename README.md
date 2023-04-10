@@ -3,7 +3,7 @@
 ### IVY MARUBU 7TH APRIL2023
 ****
 ## Project Description
-This is a dog website where you find a different varieties of dogs. Upon seeing the different varieties and their images you get to understand their breeds,use of the breed, the dogs nature and behaviour and the lifespan of the dogs.
+This is a dog website where you find a different varieties of dogs. Upon seeing the different varieties and their images you get to understand their breeds,use of the breed, the dogs nature and behaviour and the lifespan of the dogs. You also leave a comment and like the post if you wish for better interactions.
 
 ******
 

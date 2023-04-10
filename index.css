@@ -184,6 +184,9 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-size: large;
+    font-weight: 500;
+    font-style: italic;
   }
 button {
     background-color: #4CAF50;
