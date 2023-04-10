@@ -6,10 +6,6 @@
 
 ******
 
-## SCREENSHOTS
-- link 1
-- link 2
-
 
 ********
 ## SetUp Instruction

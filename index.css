@@ -199,11 +199,11 @@ button {
     border-radius: 4px;
   }
   
-  button:hover {
+button:hover {
     background-color: #3e8e41;
   }
-  
-  button:disabled {
+
+button:disabled {
     opacity: 0.5;
     cursor: default;
   }
@@ -222,7 +222,7 @@ button {
     justify-content: center;
   }
   
-  .card {
+.card {
     width: calc(100% / 3 - 12px);
     margin: 12px;
     padding: 12px;
@@ -231,7 +231,7 @@ button {
     border-radius: 4px;
   }
   
-  .card img {
+.card img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
@@ -254,7 +254,7 @@ button {
     margin: 20px 0;
   }
   
-  .page-link {
+.page-link {
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px 10px;
@@ -262,11 +262,11 @@ button {
     cursor: pointer;
   }
   
-  .active {
+.active {
     background-color: black;
     color: white;
   }
-  .card button {
+.card button {
     background-color: #fff;
     color: #333;
     border: 1px solid #333;
@@ -275,44 +275,44 @@ button {
     cursor: pointer;
   }
   
-  .card button:hover {
+.card button:hover {
     background-color: #333;
     color: #fff;
   }
   
-  .card span {
+.card span {
     font-size: 12px;
     color: #999;
     margin-left: 10px;
   }
-  .contact{
+.contact{
     background: var(--bg);
   }
-  .contact .box-container{
+.contact .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
   }
-  .contact .box-container .box h3{
+.contact .box-container .box h3{
     font-size: 2.5rem;
     color: var(--black);
     padding: 1rem 0;
   }
-  .contact .box-container .box .links{
+.contact .box-container .box .links{
     display: block;
     font-size: 1.5rem;
     color: var(--black);
     padding: 1rem 0;
   }
-  .contact .box-container .box .links i{
+.contact .box-container .box .links i{
     color: var(--main);
     padding-right: .5rem;
   }
-  .contact .box-container .box .links:hover i{
+.contact .box-container .box .links:hover i{
     padding-right: 2rem;
   }
 
-  .contact .credit{
+.contact .credit{
     font-size: 2rem;
     text-align: center;
     margin-top: 2rem;
