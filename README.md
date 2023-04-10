@@ -14,10 +14,9 @@
 ********
 ## SetUp Instruction
 ### Requirements
-* [Lang](lang Url)
-* [Framework](Framework URL)
+* Get dat an external db.json file(https://api.thedogapi.com/v1/breeds?limit=100&page=0)
 * Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
-* [Testing Platform](Platform URL)
+* 
 
 
 ### Getting Files
@@ -32,27 +31,24 @@
 * Open the folder location on terminal and use the following command to run app:
 
 ## How To Run It
->  $ pip install -r requirements.txt
-To install all requirements
+> You first git clone the repository 
 
-> $ python3 manage.py runserver
-Then run server with the above command
+> Run the project to live server using explorer
 *****
 ## Live Link
 http://127.0.0.1:5500/index.HTML
 *****
 ## Dependencies
-- Package Name
-- Package Name
-- Package Name
-- Package Name
+- Canvas 
+- W3Schools
+- YouTube 
+- Codepen 
 *****
 ## Technologies Used
 1. HTML
-2. MdBootstrap
-3. HTML
-4. CSS
-5. JavaScript
+2. CSS
+3. JavaScript 
+4. DB.JSON 
 *****
 ## Contact Information
 * Email : ivymarubu@gmail.com
