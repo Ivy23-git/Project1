@@ -3,7 +3,7 @@
 ### IVY MARUBU 7TH APRIL2023
 ****
 ## Project Description
-This is a dog website 
+This is a dog website where you find a different varieties of dogs. Upon seeing the different varieties and their images you get to understand their breeds,use of the breed, the dogs nature and behaviour and the lifespan of the dogs.
 
 ******
 
@@ -22,7 +22,7 @@ This is a dog website
 - Install the prerequisites
 - Make appropriate changes in file(s)
 - Run the server to see the changes
-- Add the changes and commit them (git commit -am "Improve App")
+- Add the changes and commit them (git commit -am "Done")
 - Push to the branch (git push origin improve-app)
 * Open the folder location on terminal and use the following command to run app:
 
